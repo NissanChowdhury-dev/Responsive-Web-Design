@@ -1,0 +1,51 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tribute Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="main">
+    <div id="main">
+    <!-- Title Section -->
+    <div id="title">
+      <h1>Tribute to Someone Special</h1>
+    </div>
+
+    <!-- Image Section -->
+    <div id="img-div">
+      <img id="image" src="https://via.placeholder.com/600x400" alt="Placeholder Image">
+      <div id="img-caption">This is a placeholder image caption.</div>
+    </div>
+  
+    <!-- Tribute Information Section -->
+    <div id="tribute-info">
+      <p>Some information about the tribute.</p>
+    </div>
+  
+    <!-- Tribute Link Section -->
+    <a id="tribute-link"
+    target="_blank" href="https://www.example.com">Learn More</a>
+  </div>
+  </main>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+img {
+  display: block;        /* Ensures the img is a block-level element */
+  margin: 0 auto;        /* Centers the image horizontally within its parent */
+  width: 80%;            /* Makes the image responsive by setting its width to 80% of its container */
+  height: auto;          /* Maintains the image's aspect ratio */
+  max-width: 100%;
+}
+
+** end of undefined **
+
