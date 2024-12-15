@@ -1,0 +1,106 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Product Landing Page</title>
+  </head>
+<body>
+
+  <!-- Header Section -->
+  <header id="header">
+    <img id="header-img" src="https://via.placeholder.com/800x200" alt="Product Header Image">
+    <nav id="nav-bar">
+      <a class="nav-link" href="#features">Features</a>
+      <a class="nav-link" href="#video-section">Video</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section id="features">
+      <h2>Our Product Features</h2>
+      <p>Discover the amazing benefits of our product!</p>
+    </section>
+
+    <section id="video-section">
+      <h2>Watch Our Product in Action</h2>
+      <iframe id="video" src="https://www.youtube.com/embed/dQw4w9WgXcQ" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="contact">
+      <h2>Stay in Touch</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+        <label for="email">Sign up for updates:</label><br>
+        <input id="email" name="email" type="email" placeholder="Enter your email" required><br>
+        <input id="submit" type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+ /* Navbar styling */
+    #nav-bar {
+      position: fixed; /* Makes navbar stick to the top */
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      color: white;
+      display: flex; /* Using Flexbox */
+      justify-content: space-around; /* Space between links */
+      align-items: center; /* Center items vertically */
+      padding: 10px 0;
+      z-index: 1000;
+    }
+    .nav-link {
+      color: white;
+      text-decoration: none;
+      font-size: 1.2em;
+    }
+    .nav-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Header section */
+    #header {
+      margin-top: 60px; /* Adjust for fixed navbar height */
+      text-align: center;
+    }
+    #header-img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* Form section */
+    #form {
+      margin: 20px auto;
+      text-align: center;
+    }
+    #email, #submit {
+      margin: 5px 0;
+    }
+
+    /* Media query for responsiveness */
+    @media (max-width: 600px) {
+      #nav-bar {
+        flex-direction: column; /* Stack links vertically */
+        padding: 15px;
+      }
+      .nav-link {
+        padding: 10px 0; /* Add spacing between links */
+      }
+    }
+
+** end of undefined **
+
